@@ -67,12 +67,3 @@ echo "|                                  |"
 echo "|----------------------------------|"
 php -r "readfile('https://getcomposer.org/installer');" > composer-setup.php
 php composer-setup.php --install-dir=/bin --filename=composer
-
-
-echo "|----------------------------------|"
-echo "|                                  |"
-echo "|       Insatlling Laravel         |"
-echo "|                                  |"
-echo "|----------------------------------|"
-composer global require "laravel/installer"
-echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
