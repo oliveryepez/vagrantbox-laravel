@@ -67,3 +67,4 @@ echo "|                                  |"
 echo "|----------------------------------|"
 php -r "readfile('https://getcomposer.org/installer');" > composer-setup.php
 php composer-setup.php --install-dir=/bin --filename=composer
+#export PATH="$PATH:/home/vagrant/.config/composer/vendor/bin"
